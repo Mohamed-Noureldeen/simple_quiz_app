@@ -1,0 +1,123 @@
+*,*::after,*::before{
+box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+
+}
+.quiz-app{
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #eee;
+}
+.quiz-app .quiz-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 8px;
+}
+.quiz-app .quiz-area{
+    padding: 10px;
+    background-color: #fff;
+}
+.quiz-app .quiz-area h2{
+    margin: 0;
+    padding: 8px 0;
+}
+.quiz-app .quiz-area .answer-area{
+    background: #eee;
+    margin-top: 3px;
+    padding: 3px 0;
+}
+.quiz-app .quiz-area .answer-area .answer{
+    margin-left: 10px;
+    padding: 4px 0;
+}
+.quiz-app .quiz-area .answer-area .answer:not(:last-child){
+    border-bottom: 1px solid #ddd9d9;
+}
+.quiz-app .quiz-area .answer-area .answer input[type="radio"]:checked + label{
+    color: #0075ff;
+}
+.submit-answer{
+    margin: 9px 0;
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+    background-color: #0075ff;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.bullets{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+
+}
+.bullets .spans span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    margin-left: 4px;
+}
+.bullets .spans span.on{
+    background-color: #0075ff;
+}
+.bullets .countdown{
+    width: fit-content;
+    flex-shrink: 0;
+}
+.result{
+    margin: 10px 0 6px;
+    text-transform: capitalize;
+}
+.nf-question,.user-result{
+    font-weight: bold;
+    font-size: 24px;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-none{
+    display: none;
+}
+.popup-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.popup-content button{
+    background-color: #0075ff;
+    padding: 7px 23px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.close{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.close img{
+    width: 100%;
+    height: 100%;
+}

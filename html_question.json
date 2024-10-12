@@ -1,0 +1,245 @@
+{
+  "quizTitle": "Advanced JavaScript Programming Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the output of the following code?\nconsole.log([] + {});",
+      "options": [
+        "'[object Object]'",
+        "'' (empty string)",
+        "'[object]'",
+        "'undefined'"
+      ],
+      "correctAnswer": "'[object Object]'",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 2,
+      "question": "What does the 'use strict' directive do in JavaScript?",
+      "options": [
+        "Allows modern JavaScript features.",
+        "Enforces stricter parsing and error handling.",
+        "Prevents the use of deprecated methods.",
+        "Optimizes JavaScript code for performance."
+      ],
+      "correctAnswer": "Enforces stricter parsing and error handling.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 3,
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A function with access to its own scope only.",
+        "A function with access to variables in its parent scope, even after the parent function has closed.",
+        "A function that doesn't return any value.",
+        "A function that runs in the global scope."
+      ],
+      "correctAnswer": "A function with access to variables in its parent scope, even after the parent function has closed.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 4,
+      "question": "What will the following code output?\nconsole.log(typeof NaN);",
+      "options": [
+        "'number'",
+        "'NaN'",
+        "'undefined'",
+        "'object'"
+      ],
+      "correctAnswer": "'number'",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 5,
+      "question": "What is the output of the following code?\nconsole.log([] + []);",
+      "options": [
+        "'[]'",
+        "'undefined'",
+        "'' (empty string)",
+        "'null'"
+      ],
+      "correctAnswer": "'' (empty string)",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the JavaScript 'this' keyword?",
+      "options": [
+        "It refers to the current object in the context.",
+        "It refers to the global object always.",
+        "It refers to the function in which it is used.",
+        "It refers to the window object."
+      ],
+      "correctAnswer": "It refers to the current object in the context.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 7,
+      "question": "What is the output of the following code?\nconsole.log(0.1 + 0.2 === 0.3);",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correctAnswer": "false",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 8,
+      "question": "What is the difference between '==' and '===' in JavaScript?",
+      "options": [
+        "'==' compares values, '===' compares both values and types",
+        "'==' compares types, '===' compares values",
+        "'==' assigns values, '===' compares values",
+        "'==' checks equality of objects, '===' checks equality of arrays"
+      ],
+      "correctAnswer": "'==' compares values, '===' compares both values and types",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 9,
+      "question": "What will the following code output?\nconsole.log(typeof function(){});",
+      "options": [
+        "'object'",
+        "'function'",
+        "'undefined'",
+        "'string'"
+      ],
+      "correctAnswer": "'function'",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 10,
+      "question": "What is the result of the following code?\nconsole.log(null === undefined);",
+      "options": [
+        "true",
+        "false",
+        "'undefined'",
+        "'null'"
+      ],
+      "correctAnswer": "false",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 11,
+      "question": "What will the following code output?\nconsole.log('5' - 3);",
+      "options": [
+        "'53'",
+        "2",
+        "NaN",
+        "undefined"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 12,
+      "question": "What is the output of the following code?\nconsole.log(!!false == false);",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correctAnswer": "true",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 13,
+      "question": "What will the following code output?\nconsole.log([] instanceof Array);",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "undefined"
+      ],
+      "correctAnswer": "true",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 14,
+      "question": "What is a promise in JavaScript?",
+      "options": [
+        "An object that represents a function that runs asynchronously.",
+        "An object representing the eventual completion or failure of an asynchronous operation.",
+        "An object that waits for all asynchronous tasks to complete.",
+        "An object that is always resolved successfully."
+      ],
+      "correctAnswer": "An object representing the eventual completion or failure of an asynchronous operation.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 15,
+      "question": "What is hoisting in JavaScript?",
+      "options": [
+        "The default behavior of moving all declarations to the top of the current scope.",
+        "The process of storing variables globally.",
+        "A technique to optimize performance.",
+        "A method for data manipulation."
+      ],
+      "correctAnswer": "The default behavior of moving all declarations to the top of the current scope.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 16,
+      "question": "What will the following code output?\nconsole.log({} === {});",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "correctAnswer": "false",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 17,
+      "question": "What is event delegation in JavaScript?",
+      "options": [
+        "Attaching an event to the parent element to manage all child events.",
+        "Attaching an event handler directly to an element.",
+        "A method of optimization for event handling.",
+        "A technique for preventing default behavior."
+      ],
+      "correctAnswer": "Attaching an event to the parent element to manage all child events.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 18,
+      "question": "What will the following code output?\nconsole.log(typeof typeof 1);",
+      "options": [
+        "'number'",
+        "'string'",
+        "'undefined'",
+        "'object'"
+      ],
+      "correctAnswer": "'string'",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of the 'Object.freeze()' method?",
+      "options": [
+        "It prevents any changes to the object's properties and values.",
+        "It prevents new properties from being added to the object.",
+        "It prevents the object from being used in loops.",
+        "It prevents functions from being called on the object."
+      ],
+      "correctAnswer": "It prevents any changes to the object's properties and values.",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 20,
+      "question": "What will the following code output?\nconsole.log(1 && 2 && 0 && 3);",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "difficult"
+    }
+  ]
+}

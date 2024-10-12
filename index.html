@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>quiz app</title>
+</head>
+
+<body>
+    <div class="quiz-app">
+        <div class="quiz-info">
+            <div class="category"><span class="type-questions">General Knowledge Quiz</span></div>
+            <div class="countdown">
+                <span class="minutes">15</span> :
+                <span class="seconds">00</span>
+            </div>
+            <div class="count">Question count:<span class="q-count">10</span></div>
+        </div>
+        <div class="quiz-area">
+            <!-- <h2>What is the capital of France?</h2> -->
+            <!-- <div class="answer-area">
+                <div class="answer">
+                    <input type="radio" id="answer_1" name="answer" checked>
+                    <label for="answer_1">aris</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="answer_2" name="answer">
+                    <label for="answer_2">ondon</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="answer_3" name="answer">
+                    <label for="answer_3">erlin</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="answer_4" name="answer">
+                    <label for="answer_4">ome</label>
+                </div>
+            </div> -->
+        </div>
+        <button class="submit-answer">submit answers</button>
+        <div class="bullets">
+            <div class="spans">
+                <!-- <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> -->
+            </div>
+           
+        </div>
+        
+
+    </div>
+    <div class="popup d-none" id="popup" >
+        <div class="popup-content">
+            <div class="close"><img src="images/close-icon.webp" alt=""></div>
+            <h2>Quiz Submitted!</h2>
+            <p>You have submitted your quiz. Do you want to see your result now?</p>
+            <button id="yes-btn">Yes</button>
+            <button id="no-btn">No</button>
+            <div class="result d-none"> your answer is <span class="user-result">0</span> from <span class="nf-question">20</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
